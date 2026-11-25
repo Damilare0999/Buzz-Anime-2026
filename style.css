@@ -110,3 +110,11 @@ a:hover {
 a:hover::after {
   width: 100%; /* Expands the underline across the full link */
 }
+
+img {
+  max-width: 100%;   /* Prevents the image from ever overflowing a small phone screen */
+  width: 300px;      /* Sets a clean default size (adjust this number as needed) */
+  height: auto;      /* Keeps the logo from stretching or squishing */
+  display: block;    /* Lets you center it cleanly */
+  margin: 20px auto; /* Centers the logo horizontally */
+}
