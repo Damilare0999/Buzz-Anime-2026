@@ -83,3 +83,30 @@ color: blue;
   margin: 0 auto;
 }
 }
+
+a {
+  position: relative;
+  color: #222222;
+  text-decoration: none;
+  padding-bottom: 4px;
+  transition: color 0.3s ease;
+}
+
+a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: #0056b3;
+  transition: width 0.3s ease;
+}
+
+a:hover {
+  color: #0056b3;
+}
+
+a:hover::after {
+  width: 100%; /* Expands the underline across the full link */
+}
