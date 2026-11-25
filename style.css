@@ -76,8 +76,8 @@ color: blue;
 }
 
 
-/* Phone*/
-@media (max-width: 600px) and (max-width: 1024px){
+/* Desktop*/
+@media (max-width: 1025px){
 .nav-container{
   max-width: 1200px;
   margin: 0 auto;
