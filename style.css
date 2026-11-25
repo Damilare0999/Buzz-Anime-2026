@@ -68,7 +68,7 @@ color: blue;
 }
 
 /* Tablet*/
-@media (max-width: 600px) and (max-width: 1024px){
+@media (min-width: 600px) and (max-width: 1024px){
 .nav-container{
   flex-wrap:wrap;
   justify-content: center;
